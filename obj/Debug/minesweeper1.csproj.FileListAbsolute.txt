@@ -1,0 +1,41 @@
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\bin\Debug\minesweeper1.exe
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\bin\Debug\minesweeper1.exe.config
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.csprojResolveAssemblyReference.cache
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.Form1.resources
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.Properties.Resources.resources
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.selectLevel.resources
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.csproj.GenerateResource.Cache
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.exe
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.pdb
+C:\Users\Nia\Documents\Visual Studio 2013\Projects\minesweeper1\minesweeper1\bin\Debug\minesweeper1.pdb
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.SavePlayer.resources
+C:\Users\Nia\documents\visual studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.Stats.resources
+C:\Users\Nia\Documents\Visual Studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\minesweeper1.Form1.dje-NE.resources
+C:\Users\Nia\Documents\Visual Studio 2013\Projects\minesweeper1\minesweeper1\bin\Debug\dje-NE\minesweeper1.resources.dll
+C:\Users\Nia\Documents\Visual Studio 2013\Projects\minesweeper1\minesweeper1\obj\Debug\dje-NE\minesweeper1.resources.dll
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\bin\Debug\minesweeper1.exe.config
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\bin\Debug\minesweeper1.exe
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\bin\Debug\minesweeper1.pdb
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\bin\Debug\dje-NE\minesweeper1.resources.dll
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\minesweeper1.Properties.Resources.resources
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\minesweeper1.selectLevel.resources
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\minesweeper1.csproj.GenerateResource.Cache
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\minesweeper1.csproj.CoreCompileInputs.cache
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\dje-NE\minesweeper1.resources.dll
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\minesweeper1.exe
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\minesweeper1.pdb
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\minesweeper1.Main.resources
+E:\_ПУ\2016\2016B\ГПИ\minesweeper1\minesweeper1\obj\Debug\minesweeper1.Main.dje-NE.resources
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\bin\Debug\minesweeper1.exe.config
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\bin\Debug\minesweeper1.exe
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\bin\Debug\minesweeper1.pdb
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\bin\Debug\dje-NE\minesweeper1.resources.dll
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\minesweeper1.Main.resources
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\minesweeper1.Properties.Resources.resources
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\minesweeper1.selectLevel.resources
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\minesweeper1.Main.dje-NE.resources
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\minesweeper1.csproj.GenerateResource.Cache
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\minesweeper1.csproj.CoreCompileInputs.cache
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\dje-NE\minesweeper1.resources.dll
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\minesweeper1.exe
+E:\_ПУ\2016\2016B\ГПИ\minesweeperProject\obj\Debug\minesweeper1.pdb
