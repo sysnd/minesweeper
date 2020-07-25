@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace minesweeper1
+namespace Minesweeper
 {
     static class Minesweeper
     {
@@ -16,7 +13,7 @@ namespace minesweeper1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new selectLevel());
+            Application.Run(new SelectLevel());
         }
     }
 }

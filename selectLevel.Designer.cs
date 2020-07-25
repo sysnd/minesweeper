@@ -1,6 +1,6 @@
-﻿namespace minesweeper1
+﻿namespace Minesweeper
 {
-    partial class selectLevel
+    partial class SelectLevel
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(selectLevel));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectLevel));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -62,7 +62,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::minesweeper1.Properties.Resources.Bomb_2;
+            this.pictureBox2.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
             this.pictureBox2.Location = new System.Drawing.Point(309, 105);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(259, 258);
@@ -74,7 +74,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::minesweeper1.Properties.Resources.Bomb_2;
+            this.pictureBox3.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
             this.pictureBox3.Location = new System.Drawing.Point(632, 105);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(259, 258);
@@ -196,7 +196,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::minesweeper1.Properties.Resources.Bomb_2;
+            this.pictureBox1.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
             this.pictureBox1.Location = new System.Drawing.Point(5, 105);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(259, 258);

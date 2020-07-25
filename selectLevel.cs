@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace minesweeper1
+namespace Minesweeper
 {
-    public partial class selectLevel : Form
+    public partial class SelectLevel : Form
     {
 
-        public selectLevel()
+        public SelectLevel()
         {
             InitializeComponent();
         }

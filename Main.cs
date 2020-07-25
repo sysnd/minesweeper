@@ -1,16 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
-using System.Diagnostics;
 
-namespace minesweeper1
+namespace Minesweeper
 {
     public partial class Main : Form
     {
@@ -49,8 +43,6 @@ namespace minesweeper1
                         button.TextAlign = ContentAlignment.TopCenter;
                         button.FlatStyle = FlatStyle.Flat;
                         button.BackColor = Color.White;
-                        //button.BackgroundImage = Properties.Resources.showing_gallery_for_triangle_png_transparent_7fujAH_clipart;
-                        //button.BackgroundImageLayout = ImageLayout.Stretch;
 
                         button.Click += (s, ex) =>
                         {
@@ -105,7 +97,7 @@ namespace minesweeper1
                 {
                     if (arr[row, col] == -1)
                     {
-                        buttons[row, col].BackgroundImage = Properties.Resources.bomb__1_;
+                        buttons[row, col].BackgroundImage = Properties.Resources.Bomb;
                         buttons[row, col].BackgroundImageLayout = ImageLayout.Zoom;
                     }
                     else
@@ -132,7 +124,7 @@ namespace minesweeper1
                 if (MessageBox.Show("Wanna try again?", "Oops! Sorry!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     Main.ActiveForm.Hide();
-                    selectLevel formObject = new selectLevel();
+                    SelectLevel formObject = new SelectLevel();
                     formObject.ShowDialog();
                 }
                 else
@@ -202,7 +194,6 @@ namespace minesweeper1
                     {
                         continue;
                     }
-                        //buttons[rBomb, cBomb].Text = array[rBomb, cBomb].ToString();
                 }
             }
             catch (Exception)
@@ -594,7 +585,7 @@ namespace minesweeper1
                    timer1.Stop();                  
                if(MessageBox.Show("You won! Continue?","Winner!",MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                {
-                   selectLevel newf = new selectLevel();
+                   SelectLevel newf = new SelectLevel();
                    this.Hide();
                    newf.ShowDialog();
                    this.Close();
@@ -617,7 +608,7 @@ namespace minesweeper1
        private void changeLevelToolStripMenuItem_Click(object sender, EventArgs e)
        {
            this.Hide();
-           selectLevel view = new selectLevel();
+           SelectLevel view = new SelectLevel();
            view.ShowDialog();
            
        }

@@ -1,4 +1,4 @@
-﻿namespace minesweeper1
+﻿namespace Minesweeper
 {
     partial class Main
     {

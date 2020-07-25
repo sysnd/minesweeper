@@ -1,0 +1,13 @@
+C:\Repositories\minesweeper\bin\Debug\Minesweeper.exe.config
+C:\Repositories\minesweeper\bin\Debug\Minesweeper.exe
+C:\Repositories\minesweeper\bin\Debug\Minesweeper.pdb
+C:\Repositories\minesweeper\bin\Debug\dje-NE\Minesweeper.resources.dll
+C:\Repositories\minesweeper\obj\Debug\Minesweeper.Main.resources
+C:\Repositories\minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+C:\Repositories\minesweeper\obj\Debug\Minesweeper.SelectLevel.resources
+C:\Repositories\minesweeper\obj\Debug\Minesweeper.Main.dje-NE.resources
+C:\Repositories\minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+C:\Repositories\minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Repositories\minesweeper\obj\Debug\dje-NE\Minesweeper.resources.dll
+C:\Repositories\minesweeper\obj\Debug\Minesweeper.exe
+C:\Repositories\minesweeper\obj\Debug\Minesweeper.pdb
