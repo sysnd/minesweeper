@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Minesweeper
+namespace Minesweeper.Forms
 {
     public partial class SelectLevel : Form
     {

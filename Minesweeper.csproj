@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Minesweeper.Minesweeper</StartupObject>
+    <StartupObject>Minesweeper.Forms.Minesweeper</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,10 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs">
+    <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Minesweeper.cs" />
@@ -61,16 +61,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SelectLevel.cs">
+    <Compile Include="Forms\SelectLevel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectLevel.Designer.cs">
+    <Compile Include="Forms\SelectLevel.Designer.cs">
       <DependentUpon>SelectLevel.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Main.dje-NE.resx">
+    <EmbeddedResource Include="Forms\Main.dje-NE.resx">
       <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -78,7 +79,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectLevel.resx">
+    <EmbeddedResource Include="Forms\SelectLevel.resx">
       <DependentUpon>SelectLevel.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -100,6 +101,7 @@
   <ItemGroup>
     <None Include="Resources\Bomb.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

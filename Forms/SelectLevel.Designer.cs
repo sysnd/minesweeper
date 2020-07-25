@@ -1,4 +1,4 @@
-﻿namespace Minesweeper
+﻿namespace Minesweeper.Forms
 {
     partial class SelectLevel
     {
