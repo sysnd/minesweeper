@@ -3,10 +3,10 @@ using System.Windows.Forms;
 
 namespace Minesweeper
 {
-    public partial class SelectLevelRen : Form
+    public partial class SelectLevel : Form
     {
 
-        public SelectLevelRen()
+        public SelectLevel()
         {
             InitializeComponent();
         }
