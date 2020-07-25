@@ -11,7 +11,7 @@ namespace Minesweeper
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void EasyPictureBox_Click(object sender, EventArgs e)
         {
             Main form = new Main(6,6,6);
             this.Hide();
@@ -20,7 +20,7 @@ namespace Minesweeper
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void MediumPictureBox_Click(object sender, EventArgs e)
         {
             Main form = new Main(8,8,20);
             this.Hide();
@@ -29,7 +29,7 @@ namespace Minesweeper
 
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void HardPictureBox_Click(object sender, EventArgs e)
         {
             Main form = new Main(10, 10, 35);
             this.Hide();
@@ -38,7 +38,7 @@ namespace Minesweeper
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void EasyLabel_Click(object sender, EventArgs e)
         {
             Main form = new Main(6, 6, 6);
             this.Hide();
@@ -46,7 +46,7 @@ namespace Minesweeper
             this.Close();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void MediumLabel_Click(object sender, EventArgs e)
         {
             Main form = new Main(8, 8, 20);
             this.Hide();
@@ -54,7 +54,7 @@ namespace Minesweeper
             this.Close();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void HardLabel_Click(object sender, EventArgs e)
         {
             Main form = new Main(10, 10, 35);
             this.Hide();

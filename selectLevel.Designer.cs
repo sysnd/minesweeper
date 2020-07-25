@@ -29,183 +29,183 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectLevel));
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.WelcomeLabel = new System.Windows.Forms.Label();
+            this.EasyPictureBox = new System.Windows.Forms.PictureBox();
+            this.MediumPictureBox = new System.Windows.Forms.PictureBox();
+            this.HardPictureBox = new System.Windows.Forms.PictureBox();
+            this.EasyLabel = new System.Windows.Forms.Label();
+            this.MediumLabel = new System.Windows.Forms.Label();
+            this.HardLabel = new System.Windows.Forms.Label();
+            this.EasyFieldSizeLabel = new System.Windows.Forms.Label();
+            this.EasyMinesLabel = new System.Windows.Forms.Label();
+            this.MediumMinesLabel = new System.Windows.Forms.Label();
+            this.MediumFieldSizeLabel = new System.Windows.Forms.Label();
+            this.HardMinesLabel = new System.Windows.Forms.Label();
+            this.HardFieldSizeLabel = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.EasyPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediumPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HardPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // WelcomeLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(228, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(462, 34);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome! Please choose a level!";
+            this.WelcomeLabel.AutoSize = true;
+            this.WelcomeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.WelcomeLabel.Font = new System.Drawing.Font("Modern No. 20", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WelcomeLabel.ForeColor = System.Drawing.Color.White;
+            this.WelcomeLabel.Location = new System.Drawing.Point(228, 26);
+            this.WelcomeLabel.Name = "WelcomeLabel";
+            this.WelcomeLabel.Size = new System.Drawing.Size(462, 34);
+            this.WelcomeLabel.TabIndex = 0;
+            this.WelcomeLabel.Text = "Welcome! Please choose a level!";
             // 
-            // pictureBox2
+            // EasyPictureBox
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
-            this.pictureBox2.Location = new System.Drawing.Point(309, 105);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(259, 258);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.EasyPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.EasyPictureBox.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
+            this.EasyPictureBox.Location = new System.Drawing.Point(5, 105);
+            this.EasyPictureBox.Name = "EasyPictureBox";
+            this.EasyPictureBox.Size = new System.Drawing.Size(259, 258);
+            this.EasyPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.EasyPictureBox.TabIndex = 1;
+            this.EasyPictureBox.TabStop = false;
+            this.EasyPictureBox.Click += new System.EventHandler(this.EasyPictureBox_Click);
             // 
-            // pictureBox3
+            // MediumPictureBox
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
-            this.pictureBox3.Location = new System.Drawing.Point(632, 105);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(259, 258);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.MediumPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.MediumPictureBox.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
+            this.MediumPictureBox.Location = new System.Drawing.Point(309, 105);
+            this.MediumPictureBox.Name = "MediumPictureBox";
+            this.MediumPictureBox.Size = new System.Drawing.Size(259, 258);
+            this.MediumPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MediumPictureBox.TabIndex = 2;
+            this.MediumPictureBox.TabStop = false;
+            this.MediumPictureBox.Click += new System.EventHandler(this.MediumPictureBox_Click);
             // 
-            // label2
+            // HardPictureBox
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Navy;
-            this.label2.Font = new System.Drawing.Font("Viner Hand ITC", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(13, 256);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 45);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Easy";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.HardPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.HardPictureBox.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
+            this.HardPictureBox.Location = new System.Drawing.Point(632, 105);
+            this.HardPictureBox.Name = "HardPictureBox";
+            this.HardPictureBox.Size = new System.Drawing.Size(259, 258);
+            this.HardPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.HardPictureBox.TabIndex = 3;
+            this.HardPictureBox.TabStop = false;
+            this.HardPictureBox.Click += new System.EventHandler(this.HardPictureBox_Click);
             // 
-            // label3
+            // EasyLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.label3.Font = new System.Drawing.Font("Viner Hand ITC", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(317, 256);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 45);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Medium";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.EasyLabel.AutoSize = true;
+            this.EasyLabel.BackColor = System.Drawing.Color.Navy;
+            this.EasyLabel.Font = new System.Drawing.Font("Viner Hand ITC", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EasyLabel.ForeColor = System.Drawing.Color.White;
+            this.EasyLabel.Location = new System.Drawing.Point(13, 256);
+            this.EasyLabel.Name = "EasyLabel";
+            this.EasyLabel.Size = new System.Drawing.Size(88, 45);
+            this.EasyLabel.TabIndex = 4;
+            this.EasyLabel.Text = "Easy";
+            this.EasyLabel.Click += new System.EventHandler(this.EasyLabel_Click);
             // 
-            // label4
+            // MediumLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Viner Hand ITC", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(640, 256);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 45);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Hard";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.MediumLabel.AutoSize = true;
+            this.MediumLabel.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.MediumLabel.Font = new System.Drawing.Font("Viner Hand ITC", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MediumLabel.ForeColor = System.Drawing.Color.White;
+            this.MediumLabel.Location = new System.Drawing.Point(317, 256);
+            this.MediumLabel.Name = "MediumLabel";
+            this.MediumLabel.Size = new System.Drawing.Size(130, 45);
+            this.MediumLabel.TabIndex = 5;
+            this.MediumLabel.Text = "Medium";
+            this.MediumLabel.Click += new System.EventHandler(this.MediumLabel_Click);
             // 
-            // label5
+            // HardLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(1, 392);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(124, 21);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Field Size: 6x6";
+            this.HardLabel.AutoSize = true;
+            this.HardLabel.Font = new System.Drawing.Font("Viner Hand ITC", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HardLabel.ForeColor = System.Drawing.Color.White;
+            this.HardLabel.Location = new System.Drawing.Point(640, 256);
+            this.HardLabel.Name = "HardLabel";
+            this.HardLabel.Size = new System.Drawing.Size(90, 45);
+            this.HardLabel.TabIndex = 6;
+            this.HardLabel.Text = "Hard";
+            this.HardLabel.Click += new System.EventHandler(this.HardLabel_Click);
             // 
-            // label6
+            // EasyFieldSizeLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(2, 413);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 21);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Mines: 10";
+            this.EasyFieldSizeLabel.AutoSize = true;
+            this.EasyFieldSizeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.EasyFieldSizeLabel.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EasyFieldSizeLabel.ForeColor = System.Drawing.Color.White;
+            this.EasyFieldSizeLabel.Location = new System.Drawing.Point(1, 392);
+            this.EasyFieldSizeLabel.Name = "EasyFieldSizeLabel";
+            this.EasyFieldSizeLabel.Size = new System.Drawing.Size(124, 21);
+            this.EasyFieldSizeLabel.TabIndex = 7;
+            this.EasyFieldSizeLabel.Text = "Field Size: 6x6";
             // 
-            // label7
+            // EasyMinesLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(305, 413);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 21);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Mines: 30";
+            this.EasyMinesLabel.AutoSize = true;
+            this.EasyMinesLabel.BackColor = System.Drawing.Color.Transparent;
+            this.EasyMinesLabel.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EasyMinesLabel.ForeColor = System.Drawing.Color.White;
+            this.EasyMinesLabel.Location = new System.Drawing.Point(2, 413);
+            this.EasyMinesLabel.Name = "EasyMinesLabel";
+            this.EasyMinesLabel.Size = new System.Drawing.Size(84, 21);
+            this.EasyMinesLabel.TabIndex = 8;
+            this.EasyMinesLabel.Text = "Mines: 10";
             // 
-            // label8
+            // MediumMinesLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(304, 392);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 21);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Field Size: 8x8";
+            this.MediumMinesLabel.AutoSize = true;
+            this.MediumMinesLabel.BackColor = System.Drawing.Color.Transparent;
+            this.MediumMinesLabel.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MediumMinesLabel.ForeColor = System.Drawing.Color.White;
+            this.MediumMinesLabel.Location = new System.Drawing.Point(305, 413);
+            this.MediumMinesLabel.Name = "MediumMinesLabel";
+            this.MediumMinesLabel.Size = new System.Drawing.Size(84, 21);
+            this.MediumMinesLabel.TabIndex = 10;
+            this.MediumMinesLabel.Text = "Mines: 30";
             // 
-            // label9
+            // MediumFieldSizeLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(629, 413);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 21);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Mines: 55";
+            this.MediumFieldSizeLabel.AutoSize = true;
+            this.MediumFieldSizeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.MediumFieldSizeLabel.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MediumFieldSizeLabel.ForeColor = System.Drawing.Color.White;
+            this.MediumFieldSizeLabel.Location = new System.Drawing.Point(304, 392);
+            this.MediumFieldSizeLabel.Name = "MediumFieldSizeLabel";
+            this.MediumFieldSizeLabel.Size = new System.Drawing.Size(124, 21);
+            this.MediumFieldSizeLabel.TabIndex = 9;
+            this.MediumFieldSizeLabel.Text = "Field Size: 8x8";
             // 
-            // label10
+            // HardMinesLabel
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(628, 392);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 21);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Field Size: 10x10";
+            this.HardMinesLabel.AutoSize = true;
+            this.HardMinesLabel.BackColor = System.Drawing.Color.Transparent;
+            this.HardMinesLabel.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HardMinesLabel.ForeColor = System.Drawing.Color.White;
+            this.HardMinesLabel.Location = new System.Drawing.Point(629, 413);
+            this.HardMinesLabel.Name = "HardMinesLabel";
+            this.HardMinesLabel.Size = new System.Drawing.Size(84, 21);
+            this.HardMinesLabel.TabIndex = 12;
+            this.HardMinesLabel.Text = "Mines: 55";
             // 
-            // pictureBox1
+            // HardFieldSizeLabel
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Minesweeper.Properties.Resources.Bomb_SelectLevel;
-            this.pictureBox1.Location = new System.Drawing.Point(5, 105);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(259, 258);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.HardFieldSizeLabel.AutoSize = true;
+            this.HardFieldSizeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.HardFieldSizeLabel.Font = new System.Drawing.Font("Modern No. 20", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HardFieldSizeLabel.ForeColor = System.Drawing.Color.White;
+            this.HardFieldSizeLabel.Location = new System.Drawing.Point(628, 392);
+            this.HardFieldSizeLabel.Name = "HardFieldSizeLabel";
+            this.HardFieldSizeLabel.Size = new System.Drawing.Size(142, 21);
+            this.HardFieldSizeLabel.TabIndex = 11;
+            this.HardFieldSizeLabel.Text = "Field Size: 10x10";
             // 
-            // selectLevel
+            // SelectLevel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -213,26 +213,26 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(889, 464);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.HardMinesLabel);
+            this.Controls.Add(this.HardFieldSizeLabel);
+            this.Controls.Add(this.MediumMinesLabel);
+            this.Controls.Add(this.MediumFieldSizeLabel);
+            this.Controls.Add(this.EasyMinesLabel);
+            this.Controls.Add(this.EasyFieldSizeLabel);
+            this.Controls.Add(this.HardLabel);
+            this.Controls.Add(this.MediumLabel);
+            this.Controls.Add(this.EasyLabel);
+            this.Controls.Add(this.HardPictureBox);
+            this.Controls.Add(this.MediumPictureBox);
+            this.Controls.Add(this.EasyPictureBox);
+            this.Controls.Add(this.WelcomeLabel);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "selectLevel";
-            this.Text = "selectLevel";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Name = "SelectLevel";
+            this.Text = "Select Level";
+            ((System.ComponentModel.ISupportInitialize)(this.EasyPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediumPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HardPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,18 +240,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label WelcomeLabel;
+        private System.Windows.Forms.PictureBox MediumPictureBox;
+        private System.Windows.Forms.PictureBox HardPictureBox;
+        private System.Windows.Forms.Label EasyLabel;
+        private System.Windows.Forms.Label MediumLabel;
+        private System.Windows.Forms.Label HardLabel;
+        private System.Windows.Forms.Label EasyFieldSizeLabel;
+        private System.Windows.Forms.Label EasyMinesLabel;
+        private System.Windows.Forms.Label MediumMinesLabel;
+        private System.Windows.Forms.Label MediumFieldSizeLabel;
+        private System.Windows.Forms.Label HardMinesLabel;
+        private System.Windows.Forms.Label HardFieldSizeLabel;
+        private System.Windows.Forms.PictureBox EasyPictureBox;
     }
 }
