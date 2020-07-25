@@ -1,6 +1,6 @@
 ﻿namespace Minesweeper
 {
-    partial class SelectLevel
+    partial class SelectLevelRen
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectLevel));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectLevelRen));
             this.WelcomeLabel = new System.Windows.Forms.Label();
             this.EasyPictureBox = new System.Windows.Forms.PictureBox();
             this.MediumPictureBox = new System.Windows.Forms.PictureBox();

@@ -124,7 +124,7 @@ namespace Minesweeper
                 if (MessageBox.Show("Wanna try again?", "Oops! Sorry!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     Main.ActiveForm.Hide();
-                    SelectLevel formObject = new SelectLevel();
+                    SelectLevelRen formObject = new SelectLevelRen();
                     formObject.ShowDialog();
                 }
                 else
@@ -585,7 +585,7 @@ namespace Minesweeper
                    timer1.Stop();                  
                if(MessageBox.Show("You won! Continue?","Winner!",MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                {
-                   SelectLevel newf = new SelectLevel();
+                   SelectLevelRen newf = new SelectLevelRen();
                    this.Hide();
                    newf.ShowDialog();
                    this.Close();
@@ -608,7 +608,7 @@ namespace Minesweeper
        private void changeLevelToolStripMenuItem_Click(object sender, EventArgs e)
        {
            this.Hide();
-           SelectLevel view = new SelectLevel();
+           SelectLevelRen view = new SelectLevelRen();
            view.ShowDialog();
            
        }

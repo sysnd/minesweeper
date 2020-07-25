@@ -61,11 +61,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SelectLevel.cs">
+    <Compile Include="SelectLevelRen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SelectLevel.Designer.cs">
-      <DependentUpon>SelectLevel.cs</DependentUpon>
+    <Compile Include="SelectLevelRen.Designer.cs">
+      <DependentUpon>SelectLevelRen.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Main.dje-NE.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -78,8 +78,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="SelectLevel.resx">
-      <DependentUpon>SelectLevel.cs</DependentUpon>
+    <EmbeddedResource Include="SelectLevelRen.resx">
+      <DependentUpon>SelectLevelRen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
