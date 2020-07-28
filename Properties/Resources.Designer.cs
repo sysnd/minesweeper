@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace minesweeper1.Properties {
+namespace Minesweeper.Properties {
     using System;
     
     
@@ -19,7 +19,7 @@ namespace minesweeper1.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -39,7 +39,7 @@ namespace minesweeper1.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("minesweeper1.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Minesweeper.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace minesweeper1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1652_200 {
+        internal static System.Drawing.Bitmap Bomb {
             get {
-                object obj = ResourceManager.GetObject("1652-200", resourceCulture);
+                object obj = ResourceManager.GetObject("Bomb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,120 +73,9 @@ namespace minesweeper1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1772803378_blue_pattern_wallpaper_tumblr {
+        internal static System.Drawing.Bitmap Bomb_SelectLevel {
             get {
-                object obj = ResourceManager.GetObject("1772803378-blue-pattern-wallpaper-tumblr", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _210943310_ba1afa04e78deb2f728d69c621db5b13 {
-            get {
-                object obj = ResourceManager.GetObject("210943310-ba1afa04e78deb2f728d69c621db5b13", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _468315071_cute_black_and_white_backgrounds_tumblr_wallpapers_for_cute_black_and_white_backgrounds_tumblr_beautiful {
-            get {
-                object obj = ResourceManager.GetObject("468315071-cute-black-and-white-backgrounds-tumblr-wallpapers-for-cute-black-and-w" +
-                        "hite-backgrounds-tumblr-beautiful", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap b5f1e8fb36cd7fbeb7988e8639ac79e9 {
-            get {
-                object obj = ResourceManager.GetObject("b5f1e8fb36cd7fbeb7988e8639ac79e9", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap background_pattern_039 {
-            get {
-                object obj = ResourceManager.GetObject("background-pattern-039", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap blue_surface_with_creases_1160_191 {
-            get {
-                object obj = ResourceManager.GetObject("blue-surface-with-creases_1160-191", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bomb {
-            get {
-                object obj = ResourceManager.GetObject("bomb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bomb__1_ {
-            get {
-                object obj = ResourceManager.GetObject("bomb (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Bomb_2 {
-            get {
-                object obj = ResourceManager.GetObject("Bomb-2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap check {
-            get {
-                object obj = ResourceManager.GetObject("check", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap showing_gallery_for_triangle_png_transparent_7fujAH_clipart {
-            get {
-                object obj = ResourceManager.GetObject("showing-gallery-for-triangle-png-transparent-7fujAH-clipart", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tumblr_m9yafdAbbt1reiaoco1_1280 {
-            get {
-                object obj = ResourceManager.GetObject("tumblr_m9yafdAbbt1reiaoco1_1280", resourceCulture);
+                object obj = ResourceManager.GetObject("Bomb-SelectLevel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
